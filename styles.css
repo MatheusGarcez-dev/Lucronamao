@@ -1,0 +1,488 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+    max-width: 1440px;
+    padding: 0;
+}
+
+section{
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+/*section1*/
+.txt-topo p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    max-width: 391px;
+}
+
+.flex1{
+    display: flex;
+    gap: 200px;
+    margin-left: 130px;
+}
+
+.txt-topo p span{
+    color: #00FFFC;
+}
+
+.input-box input {
+    width: 344px;
+    height: 50px;
+    padding: 13px 50px 13px 20px;
+    background: #252525;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.input-box input::placeholder {
+    color: #5a5858;
+    font-weight: 400;
+}
+
+.logo-topo{
+    margin-bottom: -90px;
+    margin-left: 20px;
+}
+
+.button{
+    background-color: #00FFFC;
+    color: black;
+    border-radius: 10px;
+    width: 237px;
+    border: none;
+    font-size: 12px;
+    margin: 50px 70px;
+    cursor: pointer;
+    transition: box-shadow 1s ease-out, transform 1s ease-in-out;
+}
+
+button:hover{
+  transition: .2s;
+  box-shadow: 0 0 2px #00FFFC, 0 0 5px #00FFFC, 0 0 10px #00FFFC, 0 0 40px #00FFFC;
+}
+
+.form-topo{
+    align-items: center;
+}
+
+
+
+/*section2*/
+.sec2{
+    margin-top: 100px;
+}
+.txt-topo2 h1 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    max-width: 675px;
+    margin: 0 auto;  /* Certifique-se de que o elemento tenha largura para centralizar */
+}
+
+.txt-topo2 h1 span{
+    color: #00FFFC;
+}
+
+.flex2{
+    display: flex;
+    margin-top: 50px;
+}
+
+/* Linha Horizontal */
+.line.vertical {
+    width: 42.5px;
+    height: 1px;
+    background-color: white;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  /* Linha Vertical */
+.line.horizontal {
+    width: 1px;
+    height: 131px;
+    background-color: white;
+    margin: 20px; /* Espaçamento, se necessário */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.linhas p{
+    color: #00FFFC;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-bottom: 0;
+  }
+  
+.linhas{
+    margin-top: 70px;
+}  
+
+
+.boxers .box{
+    color: white;
+   margin-top: 63px;
+}
+
+
+.box{
+    margin-top: 0;
+    margin-left: 40px;
+    width: 307px; /* Largura total da box */
+    height: 74px; /* Altura da box */
+    background-color: transparent;
+    position: relative; /* Para permitir o uso dos pseudo-elementos */
+    padding: 10px;
+    border-left: 1px solid #00FFFC;
+}
+      
+.box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 171px; /* Largura da borda superior */
+    height: 1px; /* Borda superior fina */
+    background-color: #00FFFC;
+}
+      
+.box::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 307px; /* Largura da borda inferior */
+    height: 1px; /* Borda inferior fina */
+    background-color: #00FFFC;
+}
+      
+
+.box h1{
+    font-size: 14px;
+}
+
+.box p{
+    font-size: 10px;
+    width: 521px;
+}
+
+.button1{
+    background-color: #00FFFC;
+    color: black;
+    border-radius: 10px;
+    width: 237px;
+    border: none;
+    font-size: 12px;
+    margin: 50px 590px;
+    cursor: pointer;
+    transition: box-shadow 1s ease-out;
+}
+
+
+/*Section3*/
+
+.txt-img{
+    width: 574px;
+    color: white;
+    margin-left: 700px;
+    margin-bottom: -250px;
+    margin-top: 200px;
+}
+
+.txt-img h1{
+    font-size: 38px;
+    margin-bottom: -10px;
+}
+
+.img-sec3{
+    position: absolute;
+    z-index: -2;
+}
+
+
+/*RELOGIO*/
+.faixa {
+    height: 100px; /* Altura da faixa */
+    background-color: #00FFFC;
+    margin-top: 400px;
+    width: 100vw; /* A largura será 100% da tela */
+  }
+
+  .flex3{
+    display: flex;
+    margin-top: -80px;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+.txt3 p{
+    width: 327px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: -130px;
+}
+
+
+.relogio{
+    display: flex;
+    justify-content: space-around;
+    height:95px;
+    width: 490px;
+    background: transparent;
+    border-radius: 3px;
+}
+
+.faixa-txt{
+    margin-top: 420px;
+    color: white;
+}
+
+
+.relogio div {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 234, 211, 0.7);
+    border-radius: 7px;
+}
+
+.relogio span{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.relogio span .tempo{
+    font-size: 10px;
+}
+
+.data-seconds span{
+    font-size: 20px;
+}
+
+
+
+/*SECTION4*/
+.txt-sec4{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width:390px;
+    margin: 0 auto;
+}
+
+
+.button4 {
+    background-color: #00FFFC;
+    color: black;
+    border-radius: 10px;
+    width: 237px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: box-shadow 1s ease-out;
+    position: absolute; /* Define posicionamento absoluto */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+    margin-top: 50px;
+}
+
+
+.txt4 span{
+    color: #00FFFC;
+}
+
+.sec4{
+    margin-top: 300px;
+    height: 600px;
+}
+
+.txt4 h1{
+    font-size: 32px;
+    width: 500px;
+    margin-left: -60px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.flex-linha{
+    display: flex;
+}
+
+/*Media*/
+/* Media Query para telas de até 1020px */
+@media screen and (max-width: 1020px) {
+    body {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+        overflow-x: hidden; /* Evita scroll horizontal */
+    }
+
+    .flex1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .form-topo {
+        margin-top: -390px;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+
+    .txt-topo p {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .input-box input {
+        width: 200px; /* Prioriza valor fixo sobre calc() */
+        margin-left: 10px;
+    }
+
+    .img-topo img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* section2 */
+    .flex2 {
+        flex-direction: column;
+        align-items: flex-start; /* Alinha à esquerda */
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .flex-linha {
+        margin: -610px 0 0 0;
+        text-align: left;
+        width: 80%;
+        padding: 30px;
+    }
+
+    .img-sec2 img {
+        width: 80%;
+        opacity: 0.1;
+    }
+
+    .button1 {
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* section3 */
+    .txt-img {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .img-sec3 img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        opacity: 0.1;
+        margin-top: -180px;
+    }
+
+    .flex3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .txt3 p {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    /* section4 */
+    .txt-sec4 {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .button4 {
+        margin: 50px auto 20px auto;
+        display: block;
+    }
+
+    .container4 {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 655px){
+
+    body {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+        overflow-x: hidden; /* Evita scroll horizontal */
+    }
+
+    .flex-linha {
+       margin-top: -350px;
+       max-width: 90%;
+    }
+    
+    .box{
+        width: 70%; /* Largura total da box */
+        height: 90px; /* Altura da box */
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .box p{
+        width: 230px;
+    }
+          
+    .box::after {
+        width: 70%; /* Largura da borda inferior */  
+    }
+    
+    .relogio{
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .flex3{
+        margin-top: -300px;
+    }
+
+    .txt4 h1{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
